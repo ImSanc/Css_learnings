@@ -15,7 +15,7 @@ With CSS, you can control the color, font, the size of text, the spacing between
 
 - An inline CSS uses the style attribute of an HTML element.
 
-- The following example sets the text color of the <h1> element to blue, and the text color of the <p> element to red:
+- The following example
 
 Example
 
@@ -28,7 +28,7 @@ Example
 
 - An internal CSS is defined in the <head> section of an HTML page, within a <style> element.
 
-- The following example sets the text color of ALL the <h1> elements (on that page) to blue, and the text color of ALL the <p> elements to red. In addition, the page will be displayed with a "powderblue" background color: 
+- The following example 
 
 Example
 
