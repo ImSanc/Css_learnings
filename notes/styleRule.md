@@ -18,9 +18,9 @@ With CSS, you can control the color, font, the size of text, the spacing between
 - The following example sets the text color of the <h1> element to blue, and the text color of the <p> element to red:
 
 Example
-<h1 style="color:blue;">A Blue Heading</h1>
 
-<p style="color:red;">A red paragraph.</p>
+    <h1 style="color:blue;">A Blue Heading</h1>
+    <p style="color:red;">A red paragraph.</p>
 
 
 ## Internal CSS
@@ -31,6 +31,7 @@ Example
 - The following example sets the text color of ALL the <h1> elements (on that page) to blue, and the text color of ALL the <p> elements to red. In addition, the page will be displayed with a "powderblue" background color: 
 
 Example
+
         <!DOCTYPE html>
             <html>
                 <head>
@@ -55,6 +56,7 @@ Example
 - To use an external style sheet, add a link to it in the <head> section of each HTML page:
 
 Example
+
     <!DOCTYPE html>
         <html>
             <head>
