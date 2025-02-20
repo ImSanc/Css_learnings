@@ -5,3 +5,11 @@ body{
 p{
     color: purple;
 }
+
+.gray {
+    color: gray;
+}
+
+#second {
+    font-style : italic;
+}

@@ -29,7 +29,7 @@ These are the most common and simple selectors.
     }
 
 ### ID Selector (#id) 
-→ Selects a specific element with an ID
+→ Selects a specific element with an ID (should be unique , HTML or css won't complain but should be unique for controls)
 
     #header {
     background-color: black;
