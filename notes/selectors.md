@@ -34,3 +34,27 @@ These are the most common and simple selectors.
     #header {
     background-color: black;
     }
+
+### Group selector
+- where we select a group p and h1 with , in between
+
+ p , h1 {
+    color: blue;
+    }
+
+
+- Use of selectors in React projects:
+    🔹 Final Best Practices in React
+    ✅ Use id for:
+
+        Anchor links (href="#section").
+        Form labels (htmlFor="inputId").
+        Interacting with external scripts.
+        Rare global styles.
+
+    ❌ Avoid id for:
+
+        Styling (use className).
+        Selecting elements (use useRef).
+        Handling lists (key prop is better).
+        Animations (use Framer Motion or CSS).

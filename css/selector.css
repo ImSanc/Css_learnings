@@ -13,3 +13,13 @@ p{
 #second {
     font-style : italic;
 }
+
+h1 , h2 {
+    font-size: 50px;
+    color: blue;
+}
+
+.highlight {
+    text-transform: uppercase;
+    background-color: gold;
+}
