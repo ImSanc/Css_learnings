@@ -70,3 +70,4 @@ Example
         </body>
         </html>
 
+# CSS works in waterfall it reads from top to bottom 

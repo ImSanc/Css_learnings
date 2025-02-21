@@ -23,6 +23,7 @@ These are the most common and simple selectors.
 
 ### Class Selector (.class) 
 → Selects elements with a specific class
+-> this has more specificity , even if we apply a css to all elements and have different class to one , it will override element selector
 
     .container {
     width: 80%;
