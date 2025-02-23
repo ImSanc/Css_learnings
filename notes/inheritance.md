@@ -23,3 +23,12 @@ Most properties do NOT inherit because inheritance would break layouts:
 - overflow, clip-path
 - grid, flex, align-items, justify-content
 
+
+### Setting something use all selector is not inheritance
+
+eg: 
+    * {
+        border: 1px solid red;
+    }
+
+This will apply this to every element in the DOM tree
