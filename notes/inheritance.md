@@ -77,4 +77,18 @@ we can apply this to the main selector :
 
 - Universal selector (*) → 0 (No specificity)
 
-🚀 !important overrides all but follows specificity rules when multiple !important styles exist.
+🚀 <b>!important</b> overrides all but follows specificity rules when multiple !important styles exist.
+it gives 
+
+### !Important 
+The !important declaration in CSS is used to override all other style rules, regardless of specificity. When a rule has !important, it takes priority over conflicting styles—even those with higher specificity.
+
+    p {
+    color: blue !important;
+    }
+
+    p {
+    color: red;
+    }
+    
+🔹 The paragraph will be blue because !important overrides the second rule.
