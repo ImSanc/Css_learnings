@@ -90,5 +90,18 @@ The !important declaration in CSS is used to override all other style rules, reg
     p {
     color: red;
     }
-    
+
 🔹 The paragraph will be blue because !important overrides the second rule.
+
+When to Use !important (and When Not To)
+    ✅ Use sparingly when:
+
+    You need to override styles in third-party stylesheets.
+
+    You are debugging quick fixes.
+
+❌ Avoid using it when:
+
+    You can resolve conflicts with better specificity.
+
+    It makes maintenance harder (hard to debug and override later).
