@@ -35,3 +35,26 @@ vh	                Relative to 1% of the height of the viewport*
 vmin	            Relative to 1% of viewport's* smaller dimension	
 vmax	            Relative to 1% of viewport's* larger dimension	
 %	                Relative to the parent element
+
+
+#### Difference Between % and Viewport Units (vw, vh)
+
+1. Percentage (%)
+ - % is relative to the parent element.
+ - If the parent element has no defined size, the % value might not work as expected.
+
+2. Viewport Units (vw, vh)
+ - vw and vh are relative to the entire viewport (browser window), not the parent.
+ - They always take a percentage of the viewport size, even if inside a smaller parent.
+
+
+### Which One is More Used?
+ - Use % when you want sizes relative to a parent container (e.g., for layouts inside a div).
+ - Use vw/vh when you want sizes relative to the screen (e.g., full-page sections, fullscreen backgrounds).
+
+### When to Use Which?
+    Use Case	                                       Best Choice
+    Responsive grids, divs inside a container	        %
+    Full-screen sections, modals, hero banners	        vw, vh
+    Text that scales with screen size	                vw
+    Child elements inside a fixed-size parent       	%
