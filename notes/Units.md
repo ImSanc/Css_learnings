@@ -58,3 +58,12 @@ vmax	            Relative to 1% of viewport's* larger dimension
     Full-screen sections, modals, hero banners	        vw, vh
     Text that scales with screen size	                vw
     Child elements inside a fixed-size parent       	%
+
+
+#### Note : body is not always fully 100% it grows with the content. But there might be cases where we want the content to be 100 height
+- We can use 
+
+
+        body {
+            min-height : 100vh;
+        }
