@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100..900&display=swap');
+
 body{
     padding: 25%;
     font-size: 1rem;
@@ -14,5 +17,6 @@ p{
     letter-spacing: 0.06em;
     word-spacing: 0.2em ;
     font-weight: 500;
-    font-family: 'Courier New', Courier, monospace;
+    /*font-family: 'Courier New', Courier, monospace; */
+    font-family: 'Roboto', sans-serif;
 }
