@@ -1,6 +1,7 @@
 body{
-    padding: 10%;
-    font-size: 1.5rem;
+    padding: 25%;
+    font-size: 1rem;
+    min-height: 100%;
 }
 
 /* input , button {
@@ -13,5 +14,5 @@ p{
     letter-spacing: 0.06em;
     word-spacing: 0.2em ;
     font-weight: 500;
-    font-style: ;
+    font-family: 'Courier New', Courier, monospace;
 }
